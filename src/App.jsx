@@ -1,13 +1,15 @@
+import "./App.css";
 
-import './App.css';
-import { Button } from '@/components/ui/button';
+import { Header } from "./components/Header/Header";
+import { MatrixColorChange } from "./components/matrix/Matrix";
 
 function App() {
   return (
-    <div>
-       <Button>Click me</Button>
+    <div className="bg-yellow-100">
+      <Header />
+      <MatrixColorChange />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
